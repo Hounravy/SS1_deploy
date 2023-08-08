@@ -198,7 +198,7 @@ export const RichTextMarkdown = ({ content }) => {
           );
         },
         br: () => {
-          return <br clear='all' />;
+          return <br />;
         },
         em: ({ node, ...props }) => {
           const { getClass, text, condition } = textColor(props);

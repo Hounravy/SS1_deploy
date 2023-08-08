@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -10,9 +10,6 @@ const Pop = () => {
   const [show, setShow] = useState(true);
 
   const handleClose = () => setShow(false);
-  useEffect(() => {
-    const element = document.getElementById('myElementId');
-  }, []);
 
   return (
     <>
